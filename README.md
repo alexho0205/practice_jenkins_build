@@ -30,3 +30,4 @@ practice trigger project build on jenkins with github
                 # 尋問是否加入 -> YES
                 $ git ls-remote -h -- git@github.com:alexho0205/practice_jenkins_build.git HEAD
                 ```
+        - jenkins 需要外部IP，可使用ngrok
