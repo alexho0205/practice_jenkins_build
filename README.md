@@ -13,7 +13,7 @@ practice trigger project build on jenkins with github
         4. put public key on github ( profile → settings → ssh and GPG keys → add ssh keys )
         5. put private key on jenkins ( credentials → add credentials → ssh with private key )
         6. add webhook on github ( 
-            1. url → ${jenkins_url}/github-webhoook/
+            1. url → ```${jenkins_url}```/github-webhoook/
             2. content type → json
         7. create free-style job (jenkins)
         8. trigger jenkins to build project : commit code directly (github)
